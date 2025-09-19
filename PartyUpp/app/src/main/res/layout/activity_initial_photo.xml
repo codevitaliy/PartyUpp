@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".game.InitialPhotoActivity">
+
+    <Button
+        android:id="@+id/buttonLaunchGame"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="120dp"
+        android:backgroundTint="#D0F999"
+        android:text="@string/button_lets_go"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonCamera"
+        app:layout_constraintVertical_bias="0.145"
+        android:elevation="10dp"
+        android:translationZ="2dp"
+        android:stateListAnimator="@null"/>
+
+    <ImageButton
+        android:id="@+id/imageButtonCamera"
+        android:layout_width="275dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/buttonLaunchGame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInitialPhotoMessage"
+        app:srcCompat="@drawable/camera_button"
+        android:background="?attr/selectableItemBackground"/>
+
+    <TextView
+        android:id="@+id/textViewInitialPhotoMessage"
+        android:layout_width="235dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="@string/initial_photo_top_text"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home_fragments.GalleryFragment"
+    android:background="@drawable/background">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:layout_gravity="fill"
+            android:background="#77A6DC5E"
+            android:foregroundGravity="fill_horizontal|fill_vertical|fill"
+            android:gravity="fill|fill_horizontal|fill_vertical"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textViewGalleryTitle"
+                android:layout_width="223dp"
+                android:layout_height="81dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="32dp"
+                android:foregroundGravity="left|center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/gallery_menu_ttl"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imageViewUserPhoto"
+                android:layout_width="50dp"
+                android:layout_height="52dp"
+                android:layout_gravity="right|center_vertical|end"
+                android:foregroundGravity="center|right"
+                android:scaleType="fitXY"
+                android:src="@drawable/profile"
+                app:shapeAppearanceOverlay="@style/circularShape"
+                app:srcCompat="@drawable/profile"
+                app:strokeColor="@color/white"
+                app:strokeWidth="1dp" />
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewNoGamesPlayed"
+                android:layout_width="228dp"
+                android:layout_height="129dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="92dp"
+                android:layout_marginTop="131dp"
+                android:layout_marginEnd="91dp"
+                android:layout_marginBottom="390dp"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="@string/no_games_played_msg"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>

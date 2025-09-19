@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tutorial.TutorialThirdPageFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonNextTutorialPage3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#D0F999"
+            android:elevation="10dp"
+            android:stateListAnimator="@null"
+            android:text="Next"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:translationZ="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTutorialPage3Content"
+            app:layout_constraintVertical_bias="0.392" />
+
+        <TextView
+            android:id="@+id/textViewTutorialPage3Title"
+            android:layout_width="274dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:text="@string/tutorial_third_page_title"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewTutorialPage3Content"
+            android:layout_width="307dp"
+            android:layout_height="103dp"
+            android:gravity="center"
+            android:text="@string/tutorial_third_page_content"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewChallengePhoto" />
+
+        <ImageView
+            android:id="@+id/imageViewChallengePhoto"
+            android:layout_width="367dp"
+            android:layout_height="386dp"
+            android:src="@drawable/challenge_mockup"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTutorialPage3Title" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">PartyUpp</string>
+    <string name="login_tag">Log in</string>
+    <string name="main_tutorial_button">Tutorial</string>
+    <string name="main_play_button">Play</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- Settings -->
+
+    <string name="settings_sounds">Sound effects</string>
+    <string name="settings_music">Music</string>
+    <string name="settings_about">About</string>
+    <string name="settings_vibration">Vibration</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_coming_soon">Coming soon...</string>
+    <string name="notification_string_1">Welcome to PartyUpp! We hope you have a great time, and remember to drink responsibly!</string>
+    <string name="channel_name">Game Notifications</string>
+    <string name="channel_description">Notifications for game events</string>
+    <string name="channel_id">game_channel_01</string>
+
+
+    <!-- Login & Registration activities -->
+    <string name="log_in_tag">Login</string>
+    <string name="email_placeholder_login">Enter your email</string>
+    <string name="password_placeholder_login">Enter your password</string>
+    <string name="repeat_password_placeholder_login">Confirm your password</string>
+    <string name="button_submit_login">Sign in</string>
+    <string name="login_error">Please enter a valid email and password</string>
+    <string name="sign_up_tag">Register</string>
+    <string name="username_placeholder_login">Choose a username</string>
+    <string name="registration_error">Please enter a valid email and password</string>
+    <string name="button_submit_registration">Sign up</string>
+    <string name="button_continue_as_guest">Continue as guest</string>
+    <string name="player_name_too_short">Player name too short</string>
+    <string name="player_name_too_short_msg">"Player names length must be at least "</string>
+    <string name="insufficient_players_ttl">Insufficient number of players</string>
+    <string name="insufficient_players_msg">"There aren\'t enough players. Add at least "</string>
+    <string name="max_players_msg">"You've reached the maximum number of players: "</string>
+    <string name="max_players_ttl">Too many players</string>
+    <string name="dialog_ok_button">OK</string>
+    <string name="too_many_players_ttl">Max number of players reached</string>
+    <string name="too_many_players_msg">"The maximum number of players is "</string>
+    <string name="registr_locked_ttl">Register to access this content</string>
+    <string name="registr_locked_msg">Registration is needed to access the gallery</string>
+    <string name="log_out">Log out</string>
+    <string name="log_in">Log in</string>
+    <string name="register">Register</string>
+    <string name="initial_photo_text">Take a photo to remember the moment!</string>
+    <!--    <string name="initial_photo_text">¡Toma una foto del grupo antes de empezar para recordar este momento!</string>-->
+
+    <string name="dialog_login_button">"  LOGIN "</string>
+    <string name="dialog_accept_button">"  ACCEPT  "</string>
+    <string name="reg_invalid_name_ttl">Invalid username</string>
+    <string name="reg_invalid_name_msg">The username must have only letters, numbers and/or underscore characters and be between 2 and 16 characters long</string>
+    <string name="reg_invalid_email_ttl">Invalid email</string>
+    <string name="reg_invalid_email_msg">Enter a valid email</string>
+    <string name="reg_invalid_password_ttl">Invalid password</string>
+    <string name="reg_invalid_password_msg">Password must be between 8 and 24 characters long and can\'t contain spaces</string>
+    <string name="reg_password_doesnt_match_ttl">Passwords don\'t match</string>
+    <string name="reg_password_doesnt_match_msg">Both password fields must be equal</string>
+    <string name="register_success_ttl">Registration successfull</string>
+    <string name="register_success_msg">Welcome to PartyUpp! Click to start!</string>
+    <string name="reg_email_in_use_ttl">Email already in use</string>
+    <string name="reg_email_in_use_msg">This email is already registered</string>
+    <string name="player_name_empty">Player name cannot be empty</string>
+    <string name="player_name_empty_msg">Please enter a valid name for all players</string>
+    <string name="tutorial_first_page_title">1. Enter your friends\' names</string>
+    <string name="tutorial_first_page_content">Here you\'ll find friend suggestions from previous games</string>
+    <string name="tutorial_second_page_title">2º. Take a photo</string>
+    <string name="tutorial_second_page_content">Make sure you keep a good memory of each game</string>
+    <string name="tutorial_third_page_title">3. Enjoy</string>
+    <string name="tutorial_third_page_content">Read the challenges and do your best</string>
+
+    <!-- InitialPhotoActivity -->
+    <string name="initial_photo_top_text">Take a photo of the group before start to remember this moment!</string>
+    <string name="button_register_login"><u>I don\'t have an account</u></string>
+    <string name="button_lets_go">Let\'s go!</string>
+
+    <!-- InitialPhotoActivity -->
+    <string name="end_photo_top_text">Take a last photo of the group before saving this game in the gallery!</string>
+    <string name="finish_game_button">Save game and finish</string>
+
+    <!-- Other -->
+    <string name="button_next_challenge">Next</string>
+    <string name="names_cant_repeat_ttl">Names can\'t repeat</string>
+    <string name="names_cant_repeat_msg">Type different names for each player</string>
+    <string name="available_soon_msg">Available soon!</string>
+    <string name="gallery_menu_ttl">Gallery</string>
+    <string name="play_menu_ttl">Play</string>
+    <string name="profile_menu_ttl">Profile</string>
+    <string name="incorrect_password">You entered a wrong password</string>
+    <string name="network_error_ttl">Network error</string>
+    <string name="network_error_msg">Oops! Something went wrong</string>
+    <string name="guest">Guest</string>
+    <string name="exit_game_confirmation_msg">Are you sure you want to exit the ongoing game?</string>
+    <string name="exit_game_confirmation_ttl">End game</string>
+    <string name="continue_msg">Continue</string>
+    <string name="dialog_exit_button">EXIT</string>
+    <string name="dialog_cancel_button">CANCEL</string>
+    <string name="game_end_msg">Congrats!\n\nYou have completed all the challenges</string>
+    <string name="failed_to_capture">Failed to capture photo</string>
+    <string name="camera_perm_required">Camera permission is required to take pictures</string>
+    <string name="notif_perm_required">Notification permission is required to send notifications</string>
+    <string name="gallery_top_bar_msg">Hello, Guest</string>
+    <string name="profile_pic_ttl">Log in required</string>
+    <string name="profile_pic_msg">Log in to access customization features</string>
+    <string name="timer_remaining">%d remaining</string>
+    <string name="no_games_played_msg">Your games will be displayed here\nStart one!</string>
+
+
+
+</resources>
