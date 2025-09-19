@@ -40,7 +40,7 @@ English first • Español después.
 > Images are stored in `PartyUpp/images/`.
 
 1. **Login**  
-   ![Screenshot 01 – Login](PartyUpp/images/1.png)  
+   ![Screenshot 01 – Login](images/1.png)  
    _Email + password login. You can also continue as guest._
 
 2. **Register**  
